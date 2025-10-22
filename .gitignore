@@ -43,3 +43,5 @@ npm-debug.log*
 
 lambda-deployment.zip
 lambda-package/
+
+CLAUDE.md
