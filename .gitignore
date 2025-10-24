@@ -2,7 +2,8 @@
 .env
 .env.local
 .env.*.local
-.env.production
+.env.*
+!.env.example
 
 # Python with uv
 .venv/
@@ -42,10 +43,14 @@ Thumbs.db
 *.log
 npm-debug.log*
 
+# Lambda packages
 lambda-deployment.zip
 lambda-package/
 
 CLAUDE.md
+
+# Documentation drafts
+*-draft.md
 
 # Terraform
 *.tfstate
@@ -56,3 +61,9 @@ terraform.tfstate.d/
 *.tfvars
 !terraform.tfvars
 !prod.tfvars
+
+# Memory storage (contains conversation history)
+memory/
+
+# AWS
+.aws/
