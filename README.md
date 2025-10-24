@@ -14,7 +14,7 @@ A production-ready AI Digital Twin that learns about you, deployed on AWS with s
 | Day 2 | AWS Deployment             | ✅ Complete | [📖 Day 2](docs/day2.md) |
 | Day 3 | Bedrock Integration        | ✅ Complete | [📖 Day 3](docs/day3.md) |
 | Day 4 | Infrastructure as Code     | ✅ Complete | [📖 Day 4](docs/day4.md) |
-| Day 5 | CI/CD with GitHub Actions  | 🔜 Next     | Coming soon              |
+| Day 5 | CI/CD with GitHub Actions  | ✅ Complete | [📖 Day 5](docs/day5.md) |
 
 ---
 
@@ -92,6 +92,7 @@ My journey each day `docs/` folder:
 - **[docs/day2.md](docs/day2.md)** - Deploy to AWS Lambda + S3 + CloudFront
 - **[docs/day3.md](docs/day3.md)** - Replace OpenAI with Bedrock Nova
 - **[docs/day4.md](docs/day4.md)** - Infrastructure as Code with Terraform
+- **[docs/day5.md](docs/day5.md)** - CI/CD with GitHub Actions, S3 backend, automated deployments
 
 ### Reference Guides
 
